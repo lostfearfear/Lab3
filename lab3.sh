@@ -25,7 +25,6 @@ git commit -m "Second commit"
 git checkout bugFix
 git rebase main
 
-#Rozkręcenie
 Zad1
 git checkout C4
 
@@ -42,14 +41,12 @@ git reset HEAD~1
 git checkout pushed
 git revert HEAD
 
-#Przenoszenie pracy
 Zad1
 git cherry-pick C3 C4 C7
 
 Zad2
 git rebase -i HEAD~4
 
-#Po trochu wszystkiego
 Zad1
 git checkout main
 git cherry-pick C4
@@ -77,7 +74,6 @@ git describe side
 git describe bugFixgit
 commit -m "Finish the task"
 
-#Tematy zaawansowane
 Zad1
 git rebase main bugFix
 git rebase bugFix side
@@ -94,7 +90,6 @@ git checkout two
 git cherry-pick C5 C4 C3 C2
 git branch -f three C2
 
-#Push & Pull -- Zdalne repozytoria
 Zad1
 git clone
 
@@ -132,7 +127,6 @@ git reset --hard o/main
 git checkout -b feature C2
 git push origin feature
 
-#Do źródła i dalej -- zaawansowane zdalne repozytoria
 Zad1
 git rebase side1 side2
 git rebase side2 side3
