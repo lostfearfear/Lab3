@@ -1,5 +1,4 @@
 #!/bin/bash
-#Wprowadzenie
 Zad1
 git commit -m "First commit"
 git commit -m "Second commit"
